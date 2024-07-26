@@ -17,6 +17,9 @@ from .rag.rag_tool import RagTool
 from .scrape_element_from_website.scrape_element_from_website import ScrapeElementFromWebsiteTool
 from .scrape_website_tool.scrape_website_tool import ScrapeWebsiteTool
 from .selenium_scraping_tool.selenium_scraping_tool import SeleniumScrapingTool
+from .spider_search_tool.spider_search_tool import SpiderSearchTool
+from .spider_scrape_tool.spider_scrape_tool import SpiderScrapeTool
+from .spider_crawl_tool.spider_crawl_tool import SpiderCrawlTool
 from .website_search.website_search_tool import WebsiteSearchTool
 from .xml_search_tool.xml_search_tool import XMLSearchTool
 from .youtube_channel_search_tool.youtube_channel_search_tool import YoutubeChannelSearchTool
